@@ -131,3 +131,18 @@ aside .toggle {
   justify-content: space-between;
   margin-top: 1.4rem;
 }
+
+aside .toggle .logo {
+  display: flex;
+  gap: 0.5rem;
+}
+
+aside .toggle .logo img {
+  width: 2rem;
+  height: 2rem;
+}
+
+aside .toggle .close {
+  padding-right: 1rem;
+  display: none;
+}
