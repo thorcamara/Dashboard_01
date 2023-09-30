@@ -75,3 +75,16 @@ h2 {
   font-weight: 600;
   font-size: 1.4rem;
 }
+
+h3 {
+  font-weight: 500;
+  font-size: 0.87rem;
+}
+
+small {
+  font-size: 0.76rem;
+}
+
+p {
+  color: var(--color-dark-variant);
+}
