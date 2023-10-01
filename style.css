@@ -342,3 +342,21 @@ main .new-users .user-list .user img {
 main .recent-orders {
   margin-top: 1.3rem;
 }
+
+main .recent-orders h2 {
+  margin-bottom: 0.8rem;
+}
+
+main .recent-orders table {
+  background-color: var(--color-white);
+  width: 100%;
+  padding: var(--card-padding);
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--card-border-radius);
+  transition: all 0.3s ease;
+}
+
+main .recent-orders table:hover {
+  box-shadow: none;
+}
