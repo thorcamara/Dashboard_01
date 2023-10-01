@@ -243,3 +243,21 @@ main .analyse>div {
 main .analyse>div:hover {
   box-shadow: none;
 }
+
+main .analyse>div .status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .analyse h3 {
+  margin-left: 0.6rem;
+  font-size: 1rem;
+}
+
+main .analyse .progresss {
+  position: relative;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
