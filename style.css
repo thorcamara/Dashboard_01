@@ -324,3 +324,21 @@ main .new-users .user-list {
 main .new-users .user-list:hover {
   box-shadow: none;
 }
+
+main .new-users .user-list .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .new-users .user-list .user img {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 0.4rem;
+  border-radius: 50%;
+}
+
+main .recent-orders {
+  margin-top: 1.3rem;
+}
