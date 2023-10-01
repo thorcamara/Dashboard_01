@@ -377,3 +377,17 @@ main .recent-orders a {
   margin: 1rem auto;
   color: var(--color-primary);
 }
+
+.right-section {
+  margin-top: 1.4rem;
+}
+
+.right-section .nav {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.right-section .nav button {
+  display: none;
+}
