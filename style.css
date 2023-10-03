@@ -476,3 +476,28 @@ main .recent-orders a {
   background-color: var(--color-white);
   border-radius: 50%;
 }
+
+.right-section .reminders .notification {
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+  padding: 1.4rem var(--card-padding);
+  border-radius: var(--border-radius-2);
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.right-section .reminders .notification:hover {
+  box-shadow: none;
+}
+
+.right-section .reminders .notification .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
