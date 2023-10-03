@@ -501,3 +501,25 @@ main .recent-orders a {
   margin: 0;
   width: 100%;
 }
+
+.right-section .reminders .notification .icon {
+  padding: 0.6rem;
+  color: var(--color-white);
+  background-color: var(--color-success);
+  border-radius: 20%;
+  display: flex;
+}
+
+.right-section .reminders .notification.deactive .icon {
+  background-color: var(--color-danger);
+}
+
+.right-section .reminders .add-reminder {
+  background-color: var(--color-white);
+  border: 2px dashed var(--color-primary);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
