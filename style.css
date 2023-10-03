@@ -523,3 +523,14 @@ main .recent-orders a {
   justify-content: center;
   cursor: pointer;
 }
+
+.right-section .reminders .add-reminder:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.right-section .reminders .add-reminder div {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
