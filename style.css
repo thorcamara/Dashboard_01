@@ -443,3 +443,18 @@ main .recent-orders a {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
+.right-section .user-profile:hover {
+  box-shadow: none;
+}
+
+.right-section .user-profile img {
+  width: 11rem;
+  height: auto;
+  margin-bottom: 0.8rem;
+  border-radius: 50%;
+}
+
+.right-section .user-profile h2 {
+  margin-bottom: 0.2rem;
+}
